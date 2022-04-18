@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>
+       Jewelry
+    </title>
+    <style>
+        .picture {
+            width: 300px;
+           /* object-fit: contain; 
+            object-position: right; */
+            display:block;
+            cursor:pointer;
+
+           
+        }
+        .picture:hover {
+            opacity:0.8;
+        }
+        .writing {
+            width:300px;
+            cursor:pointer;
+        }
+        .button {
+            cursor:pointer;
+            background-color: antiquewhite;
+            color:black;
+            font-size:15px;
+            transition: opacity 0.15s;
+            margin-left:50px;
+        }
+        .button:hover {
+            opacity:0.8;
+        }
+        .button:active {
+            opacity:0.3;
+        }
+        .jewelry {
+            width:300px;
+            display:inline-block;
+            border:solid;
+            vertical-align: top;
+            margin-right:15px;
+            box-shadow: rgba(24, 24, 169, 0.2) 0px 7px 29px 0px;
+            
+
+        }
+        .container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap:40px;
+            justify-content: center;
+        }
+        /* .second-watch {
+            width:300px;
+            display:inline-block;
+            border-color:red;
+            border:solid;
+            margin-left:10px;
+            margin-top:0px;
+            
+        } */
+        .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jewelry">
+            <div>
+               <img src="pictures/picture13.webp" class="picture">
+   
+            </div>
+            <div>
+               <p class="writing">
+                TEILOR Necklace 18K
+                  
+                     <br>
+                    <strong>57,545.00 LEI </strong>
+                </p>
+   
+            </div>
+            <div>
+               <button class="button">Add To Cart</button>
+            </div>   
+        </div>
+   
+   
+        <div class="jewelry">
+            <div> <img src="pictures/picture14.webp" class="picture"></div>
+            <div><p class="writing">
+                TEILOR Necklace 18K
+               <br>
+               <strong> 735.00 LEI </strong>
+            </p></div>
+            <div> <button class="button">Add To Cart</button></div>  
+   
+        </div>
+   
+        <div class="jewelry">
+            <div>   <img src="pictures/picture15.webp" class="picture"></div>
+            <div><p class="writing"> 
+                
+        TEILOR Necklace 18K
+               <br>
+               <strong>
+                   
+                   <br>
+                    894.00 LEI
+                   </strong>
+            </p></div>
+            <div><button class="button">
+               Add to Cart
+           </button></div>     
+        </div>
+   
+        <div class="jewelry">
+            <div>  <img src="pictures/picture16.webp" class="picture"></div>
+            <div> <p class="writing">
+                TEILOR Necklace 18K
+               <br>
+               <strong>
+                  1,400.00 LEI 
+               </strong>
+           </p></div>
+            <div> <button class="button">
+               Add to Cart
+           </button></div>  
+        </div>
+   
+   
+        <div class="jewelry">
+            <div><img src="pictures/picture17.webp" class="picture"></div>
+            <div><p class="writing">
+               TEILOR Necklace 18K
+               <br>
+               <strong>
+               1,400.00 LEI
+               </strong>
+           </p></div>
+            <div> <button class="button">
+               Add to Cart
+           </button></div>   
+        </div>
+   
+        <div class="jewelry">
+            <div> <img src="pictures/picture18.webp" class="picture"></div>
+            <div><p class="writing">
+                TEILOR Necklace 18K 
+               <br>
+               <strong>
+                   2,525.00 LEI
+               </strong>
+           </p></div>
+            <div><button class="button">
+               Add to Cart
+           </button></div> 
+   
+        </div>
+
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="jewelrypage.html">1</a>
+        <a class ="active" href="#">2</a>
+        <a href="jewelrypages3.html">3</a>
+        <a href="#">&raquo;</a>
+      </div> 
+     
+</body>

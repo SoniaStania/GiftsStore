@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    Login Page
+</title>
+<style>
+    body {
+        background-image:url(sign-in-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    }
+   .shop {
+        font-family:arial;
+        font-size:50px;
+        color:rgb(170, 12, 170);
+        font-weight:bold;
+        text-align:center;
+
+    }
+    .text-box {
+        color: white;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        border-color:violet;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-left:10px;
+       display:inline-block;
+       cursor:pointer;
+       transition: opacity 0.15s;
+       margin-bottom:20px;
+       margin-left:600px;
+
+    }
+    .text-box:hover {
+        opacity:0.8;
+    }
+    .text-box:active {
+        opacity:0.3;
+    }
+    .password {
+        border-color:violet;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        padding-top:10px;
+        padding-bottom:10px;
+        margin-left:10px;
+       display:inline-block;
+       cursor:pointer;
+       transition: opacity 0.15s;
+       margin-left:600px;
+
+
+    }
+    .password:hover {
+        opacity:0.8;
+        
+    }
+    .password:active {
+        opacity:0.3;
+    }
+    
+    .paragraph {
+        color:rgb(76, 76, 223);
+        cursor:pointer;
+        margin-left:750px;
+
+    }
+    .paragraph:hover {
+        text-decoration: underline;
+        color:red;
+    }
+    .sign-button {
+background-color:violet;
+color:white;
+font-weight:bold;
+border-radius:8px;
+height:36px;
+width:64px;
+margin-left:8px;
+cursor:pointer;
+border:none;
+width:100px;
+margin-left:600px;
+box-shadow: 10px 10px 5px #aaaaaa;
+transition:opacity 0.15s;
+
+}
+.sign-button:hover {
+opacity:0.8;
+
+}
+.sign-button:active {
+opacity:0.3;
+}
+.create-account {
+color:blueviolet;
+cursor:pointer;
+
+
+}
+.create-account:hover {
+text-decoration:underline;
+}
+.new {
+margin-left:600px;
+}
+.picture {
+width:300px;
+margin-bottom:150px;
+}
+
+</style>
+
+    </head>
+
+    <body>
+   <div class="wrapper">
+    <p class="shop">
+        Sign In to Our Shop
+    </p>
+    
+    
+<input class="text-box" type="text" placeholder="Username or mail address" >
+<br>
+<input class="password" type="password" placeholder="Password">
+
+<!-- <p class="paragraph">
+Forgot your password?
+</p> -->
+<a type="text" href="forgotpassword.html" target="_blank" class="paragraph">Forgot password?</a>
+
+<a href="homepage.html" target="_blank">
+<button class="sign-button">
+Sign In
+</button>
+
+<p class="new">
+New to our Shop? <span class="create-account">Create an account.</span>
+
+</p>
+
+    </body>
+    <img src="shop.jpg" class="picture">
+</html>
+
+

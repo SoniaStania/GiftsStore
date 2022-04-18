@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <title>
+     AfterShave
+    </title>
+    <style>
+        .picture {
+            width: 300px;
+           /* object-fit: contain; 
+            object-position: right; */
+            display:block;
+            cursor:pointer;
+
+           
+        }
+        .picture:hover {
+            opacity:0.8;
+        }
+        .writing {
+            width:300px;
+            cursor:pointer;
+        }
+        .button {
+            cursor:pointer;
+            background-color: antiquewhite;
+            color:black;
+            font-size:15px;
+            transition: opacity 0.15s;
+            margin-left:50px;
+        }
+        .button:hover {
+            opacity:0.8;
+        }
+        .button:active {
+            opacity:0.3;
+        }
+        .aftershave {
+            width:300px;
+            display:inline-block;
+            border:solid;
+            vertical-align: top;
+            margin-right:15px;
+            box-shadow: rgba(24, 24, 169, 0.2) 0px 7px 29px 0px;
+
+        }
+        .container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap:40px;
+            justify-content: center;
+        }
+        /* .second-watch {
+            width:300px;
+            display:inline-block;
+            border-color:red;
+            border:solid;
+            margin-left:10px;
+            margin-top:0px;
+            
+        } */
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="aftershave">
+            <div>
+               <img src="pictures/picture45.jpg" class="picture">
+   
+            </div>
+            <div>
+               <p class="writing">
+               Versace Eros Pour Homme AfterShave 100ml
+                <br>
+                    <strong>124.00 lei</strong>
+                </p>
+   
+            </div>
+            <div>
+               <button class="button">Add To Cart</button>
+            </div>   
+        </div>
+   
+   
+        <div class="aftershave">
+            <div> <img src="pictures/picture46.jpg" class="picture"></div>
+            <div><p class="writing">
+                
+                   Hugo Boss AfterShave 100ml
+
+                
+               <br>
+               <strong> 174.00 lei </strong>
+            </p></div>
+            <div> <button class="button">Add To Cart</button></div>  
+   
+        </div>
+   
+        
+
+    </div>
+     
+</body>

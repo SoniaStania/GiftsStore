@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Perfumes
+    </title>
+    <style>
+        .picture {
+            width: 300px;
+           /* object-fit: contain; 
+            object-position: right; */
+            display:block;
+            cursor:pointer;
+
+           
+        }
+        .picture:hover {
+            opacity:0.8;
+        }
+        .writing {
+            width:300px;
+            cursor:pointer;
+        }
+        .button {
+            cursor:pointer;
+            background-color: antiquewhite;
+            color:black;
+            font-size:15px;
+            transition: opacity 0.15s;
+            margin-left:50px;
+        }
+        .button:hover {
+            opacity:0.8;
+        }
+        .button:active {
+            opacity:0.3;
+        }
+        .perfumes {
+            width:300px;
+            display:inline-block;
+            border:solid;
+            vertical-align: top;
+            margin-right:15px;
+            box-shadow: rgba(24, 24, 169, 0.2) 0px 7px 29px 0px;
+
+        }
+        .container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap:40px;
+            justify-content: center;
+        }
+        /* .second-watch {
+            width:300px;
+            display:inline-block;
+            border-color:red;
+            border:solid;
+            margin-left:10px;
+            margin-top:0px;
+            
+        } */
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="perfumes">
+            <div>
+               <img src="pictures/picture25.avif" class="picture">
+   
+            </div>
+            <div>
+               <p class="writing">
+                Gucci Bloom 100ml eau de parfum
+                <br>
+                    <strong>€ 130</strong>
+                </p>
+   
+            </div>
+            <div>
+               <button class="button">Add To Cart</button>
+            </div>   
+        </div>
+   
+   
+        <div class="perfumes">
+            <div> <img src="pictures/picture26.webp" class="picture"></div>
+            <div><p class="writing">
+               GINO ROSSI-Nuit Mystere
+               <br>
+               <strong> 30€ </strong>
+            </p></div>
+            <div> <button class="button">Add To Cart</button></div>  
+   
+        </div>
+   
+        <div class="perfumes">
+            <div>   <img src="pictures/picture27.jpg" class="picture"></div>
+            <div><p class="writing"> 
+               La Vie Est Belle Intensement 100ml
+               <br>
+               <strong>
+                   <strike>150€</strike>
+                   <br>
+                    Now 120€
+                   </strong>
+            </p></div>
+            <div><button class="button">
+               Add to Cart
+           </button></div>     
+        </div>
+   
+        <div class="perfumes">
+            <div>  <img src="pictures/picture28.jpg" class="picture"></div>
+            <div> <p class="writing">
+               Si Passione 50ml
+               <br>
+               <strong>
+                   100€
+               </strong>
+           </p></div>
+            <div> <button class="button">
+               Add to Cart
+           </button></div>  
+        </div>
+   
+   
+        <div class="perfumes">
+            <div><img src="pictures/picture29.jpg" class="picture"></div>
+            <div><p class="writing">
+               Jimmy Choo Fever 100ml
+               <br>
+               <strong>
+                   50€
+               </strong>
+           </p></div>
+            <div> <button class="button">
+               Add to Cart
+           </button></div>   
+        </div>
+   
+        <div class="perfumes">
+            <div> <img src="pictures/picture30.jpg" class="picture"></div>
+            <div><p class="writing">
+               Eternity By Calvin Klein 100ml 
+               <br>
+               <strong>
+                   30€
+               </strong>
+           </p></div>
+            <div><button class="button">
+               Add to Cart
+           </button></div> 
+   
+        </div>
+
+    </div>
+     
+</body>

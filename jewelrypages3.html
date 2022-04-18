@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<head>
+    <title>
+       Jewelry
+    </title>
+    <style>
+        .picture {
+            width: 300px;
+           /* object-fit: contain; 
+            object-position: right; */
+            display:block;
+            cursor:pointer;
+
+           
+        }
+        .picture:hover {
+            opacity:0.8;
+        }
+        .writing {
+            width:300px;
+            cursor:pointer;
+        }
+        .button {
+            cursor:pointer;
+            background-color: antiquewhite;
+            color:black;
+            font-size:15px;
+            transition: opacity 0.15s;
+            margin-left:50px;
+        }
+        .button:hover {
+            opacity:0.8;
+        }
+        .button:active {
+            opacity:0.3;
+        }
+        .jewelry {
+            width:300px;
+            display:inline-block;
+            border:solid;
+            vertical-align: top;
+            margin-right:15px;
+            box-shadow: rgba(24, 24, 169, 0.2) 0px 7px 29px 0px;
+            
+
+        }
+        .container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            row-gap:40px;
+            justify-content: center;
+        }
+        /* .second-watch {
+            width:300px;
+            display:inline-block;
+            border-color:red;
+            border:solid;
+            margin-left:10px;
+            margin-top:0px;
+            
+        } */
+        .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jewelry">
+            <div>
+               <img src="pictures/picture19.webp" class="picture">
+   
+            </div>
+            <div>
+               <p class="writing">
+                Solitaire Diamond Bracelet - Yellow Gold    
+                     <br>
+                     <span style="color:gray; font-size:10px;">14k SOLID GOLD </span>
+                     <br>
+                    <strong> £195 </strong>
+                </p>
+   
+            </div>
+            <div>
+               <button class="button">Add To Cart</button>
+            </div>   
+        </div>
+   
+   
+        <div class="jewelry">
+            <div> <img src="pictures/picture20.avif" class="picture"></div>
+            <div><p class="writing">
+                Double G mother of pearl bracelet
+               <br>
+               <strong> € 360  </strong>
+            </p></div>
+            <div> <button class="button">Add To Cart</button></div>  
+   
+        </div>
+   
+        <div class="jewelry">
+            <div>   <img src="pictures/picture21.webp" class="picture"></div>
+            <div><p class="writing"> 
+                
+      <strong>Pragnell </strong>
+               <br>
+               18kt white gold RockChic bracelet
+               <br>
+               <strong>
+                   
+                   <br>
+                   5,169 €
+                   </strong>
+            </p></div>
+            <div><button class="button">
+               Add to Cart
+           </button></div>     
+        </div>
+   
+        <div class="jewelry">
+            <div>  <img src="pictures/picture22.avif" class="picture"></div>
+            <div> <p class="writing">
+                Interlocking G bracelet in silver
+               <br>
+               <strong>
+                € 310 
+               </strong>
+           </p></div>
+            <div> <button class="button">
+               Add to Cart
+           </button></div>  
+        </div>
+   
+   
+        <div class="jewelry">
+            <div><img src="pictures/picture23.webp" class="picture"></div>
+            <div><p class="writing">
+              <strong>SHAY </strong>
+               <br>
+               18K white gold pavé diamond bracelet
+               <br>
+               <strong>
+                21,798 €
+               </strong>
+           </p></div>
+            <div> <button class="button">
+               Add to Cart
+           </button></div>   
+        </div>
+   
+        <div class="jewelry">
+            <div> <img src="pictures/picture24.webp" class="picture"></div>
+            <div><p class="writing">
+              <strong>MORELLATO</strong>
+               <br>
+               Bracelets 
+               <br>
+               <strike>EUR 99,00</strike>
+               <br>
+               44% OFF
+               <br>
+               <strong>
+                   EUR 54,99
+               </strong>
+           </p></div>
+            <div><button class="button">
+               Add to Cart
+           </button></div> 
+   
+        </div>
+
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="jewelrypage.html">1</a>
+        <a  href="jewelrypages2.html">2</a>
+        <a  class ="active" href="#">3</a>
+        <a href="#">&raquo;</a>
+      </div> 
+     
+</body>

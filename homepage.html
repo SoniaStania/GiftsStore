@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home Page
+        </title>
+       
+       
+        <style>
+            .picture {
+                width:100%;
+                cursor:pointer;
+                display:block;
+                transition: opacity 0.15s;
+               
+               
+            }
+            .picture:hover {
+                opacity:0.8;
+                
+            }
+            .picture-perfum:hover {
+                opacity:0.8;
+            }
+            .cosmetics-picture {
+                cursor:pointer;
+                transition: opacity 0.15s;
+            }
+           .cosmetics-picture:hover {
+               opacity:0.8;
+           }
+           .watch-picture{
+               cursor:pointer;
+               transition: opacity 0.15s;
+           }
+           .watch-picture:hover {
+               opacity:0.8;
+           }
+         
+
+   .jewelry {
+       font-size:20px;
+       font-family:arial;
+       font-weight: bold;
+       margin-left:60px;
+       cursor:pointer;
+       
+   }
+   .jewelry:hover {
+       text-decoration:underline;
+   }
+   .offer {
+       background-color: red;
+       
+   }
+   .first-product {
+       width:300px;
+       display:inline-block;
+   }
+   .second-product {
+       width:300px;
+       display:inline-block;
+       margin-left:30px;
+       vertical-align:bottom;
+   }
+   .third-product {
+       width:300px;
+       display:inline-block;
+       margin-left:30px;
+       vertical-align:bottom;
+       cursor:pointer;
+
+   }
+  
+   .forth-product {
+       width:300px;
+       display:inline-block;
+       margin-left:30px;
+
+   }
+   .fifth-product {
+       width:300px;
+       display:inline-block;
+       margin-left:20px;
+   }
+   .sixth-product {
+       width:300px;
+       display:inline-block;
+       margin-left:10px;
+   }
+   .container {
+       display:grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       column-gap: 15px;
+       row-gap:40px;
+   }
+   .flex-box {
+       height:55px;
+       display: flex;
+       flex-direction:row;
+       justify-content:space-between;
+
+   }
+   .left-section {
+      
+       width:150px;
+       align-items:center;
+       display:flex;
+       margin-left:20px;
+  
+   }
+   .middle-section {
+     
+       flex:1;
+       margin-right:35px;
+       max-width:500px;
+       margin-left:70px;
+       display:flex;
+       align-items:center;
+     
+   }
+.right-section {
+    
+    width:200px;
+    
+}
+.picture-on-the-left {
+    height:70px;
+    cursor:pointer;
+   
+}
+.search-button {
+    height:40px;
+    width:66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style:solid;
+    border-color:gray;
+    margin-left: -1px;
+    margin-right:10px;
+    cursor:pointer;
+}
+.search-button:hover {
+    opacity:0.8;
+}
+.voice-search-button {
+    height:40px;
+    width: 40px;
+    border-radius:40px;
+    border:none;
+    cursor:pointer;
+}
+.voice-search-button:hover {
+    opacity:0.8;
+}
+.search {
+    flex:1;
+    height:36px;
+    font-size:16px;
+    border-width:1px;
+    border-style:solid;
+    border-color:gray;
+    border-radius:2px;
+    box-shadow:inset 1px 2px 5px rgba(0,0,0,0.15);
+    cursor:pointer;
+}
+.search::placeholder {
+    font-family:arial;
+    font-size:13px;
+    padding-left:10px;
+}
+.search-icon {
+    height:25px;
+    margin-top:4px;
+}
+.notification-icon {
+    height: 25px;
+    margin-top:4px;
+    margin-right:10px;
+    margin-bottom:15px;
+    background-color: white;
+    cursor:pointer;
+    vertical-align: center;
+  
+
+}
+.notification-icon:hover{
+    opacity:0.8;
+}
+.user-icon {
+    height:50px;
+    cursor:pointer;
+    margin-top:6px;
+    border-radius:40px;
+    margin-left:90px;
+    
+    
+}
+        </style>
+    </head>
+    <body>
+        <style>
+            body {background-image:url(gift-background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+            margin:0;
+                 }
+
+        </style>
+
+        <div class="flex-box" >
+            <div class="left-section">
+              <img src="shop-image.jpg" class="picture-on-the-left">
+
+            </div>
+            <div class="middle-section">
+                <input type="text" placeholder="Search" class="search">
+                <button class="search-button" >
+                  <img src="icons/search.svg" class="search-icon">
+                </button>
+                <button class="voice-search-button">
+                    <img src="icons/voice-search-icon.svg">
+                    
+                </button>
+            </div>
+            <div class="right-section">
+             <img src="icons/notifications.svg" class="notification-icon">
+           
+
+             <img src="user-image.jpg" class="user-icon">
+            </div>
+           
+         
+
+        </div>
+        
+        <div class="container">
+           
+            <div class="first-product">
+               
+                <div>
+                  
+                   <img src="jewelry.jpg" class="picture">
+                </div>
+                <div>
+   <a class="jewelry" type="text" href="jewelrypage.html" target="_blank" >
+   
+                   Jewelry  <span class="offer"> 
+                       15%off
+                  </span>
+                 
+                  
+                </a>
+                </div>
+            </div>
+            <div class="second-product">
+               
+               <img src="watch.jpg" class="watch-picture">
+               <a class="jewelry" type="text" href="watchespage.html" target="_blank">
+               
+                   Watches  <span class="offer"> 20%off
+                  </span>
+                  
+                </a>
+   
+            </div>
+            <div class="third-product">
+                
+               <img src="perfum.jpg" class="picture-perfum">
+               <a class="jewelry" type="text" href="perfumespage.html" target="_blank">
+                
+                   Perfumes  <span class="offer"> 30%off
+                  </span>
+                  
+                </a>
+   
+            </div>
+            <div class="forth-product">
+                
+               <img src="cosmetics.jpg" class="cosmetics-picture">
+               <a class="jewelry" type="text" href="cosmeticspage.html" target="_blank">
+               
+                   Cosmetics  <span class="offer"> 5%off
+                  </span>
+                  
+                </a>
+   
+            </div>
+            <div class="fifth-product">
+                
+                <img src="perfum_men.jpg" class="picture">
+                <a class="jewelry" type="text" href="perfumesformen.html" target="_blank">
+                   
+                    Perfumes for Men <span class="offer"> Limited Edition</span>
+                </a>
+   
+            </div>
+          
+            <div class="sixth-product">
+               
+                <img src="aftershave.jpg" class="picture">
+                <a class="jewelry" type="text" href="aftershavepage.html" target="_blank">
+                   
+                    Aftershave  <span class="offer">10%off</span>
+                </a>
+            </div>
+
+        </div>
+
+      
+    </body>
+    
+</html>
